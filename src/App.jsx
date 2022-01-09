@@ -1,8 +1,15 @@
+import { Container } from "./components/styles/Container.styled";
+import Header from "./components/styles/Header";
+
 const App = () => {
   return (
-    <div className="container">
-      <h1>Hello There !</h1>
-    </div>
+    <>
+      <Header />
+      <Container>
+        <h1>Hello There !</h1>
+      </Container>
+    </>
+ 
   );
 }
 
