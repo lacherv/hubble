@@ -8,7 +8,10 @@ export const StyledCard = styled.div`
     display: flex;
     margin: 40px;
     padding: 60px;
-    flex-direction: ${({ layout }) => layout || 'row'};
+    /* flex-direction: ${({ layout }) => layout || 'row'}; */
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+    }
 
     img {
         width: 80%;
