@@ -19,7 +19,7 @@ const App = () => {
         <GlobalStyles />
         <Header />
         <Container>
-          <h1>Hello There !</h1>
+          
         </Container>
       </>
     </ThemeProvider>
