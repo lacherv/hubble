@@ -1,5 +1,5 @@
 import { Container } from "./components/styles/Container.styled";
-import Header from "./components/styles/Header";
+import Header from "./components/Header";
 
 const App = () => {
   return (
